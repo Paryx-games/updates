@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "1.2.0",
+      "published_at": "2026-05-25T14:00:00Z",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb924...",
+      "size_bytes": 4823102,
+      "download_url": "https://github.com/you/repo/releases/download/v1.2.0/your-app-win-x86_64.exe",
+      "changelog": "fixed x, improved y, added z"
+    },
+    {
+      "version": "1.1.0",
+      "published_at": "2026-05-10T09:00:00Z",
+      "sha256": "abc123...",
+      "size_bytes": 4700000,
+      "download_url": "https://github.com/you/repo/releases/download/v1.1.0/your-app-win-x86_64.exe",
+      "changelog": "initial stuff"
+    }
+  ]
+}
