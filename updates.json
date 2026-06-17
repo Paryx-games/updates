@@ -1,17 +1,19 @@
 {
-  "version": "1.1.0",
-  "release_date": "2026-06-17",
+  "version": "1.2.0",
+  "min_supported_version": "1.0.5",
+  "channel": "stable",
   "changelog": [
     "fixed bugs",
-    "added cool stuff",
-    "improved performance"
+    "improved ui"
   ],
-  "mandatory": false,
-  "assets": {
-    "installer": {
-      "name": "example.exe",
+  "assets": [
+    {
+      "platform": "windows",
+      "arch": "x64",
+      "type": "installer",
       "url": "https://example.com",
-      "size": 52428800
+      "size": 52428800,
+      "sha256": "abc123deadbeef"
     },
-  }
+  ]
 }
